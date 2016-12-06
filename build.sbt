@@ -10,6 +10,6 @@ libraryDependencies ++= Seq(
   javaJdbc
 )
 
-val appDependencies = Seq(
-  "mysql" % "mysql-connector-java" % "5.1.39"
-)
+libraryDependencies += "com.google.code.gson" % "gson" % "2.7"
+libraryDependencies += "org.mybatis" % "mybatis" % "3.4.1"
+
